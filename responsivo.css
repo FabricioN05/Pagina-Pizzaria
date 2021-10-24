@@ -1,0 +1,25 @@
+@media only screen and (min-width: 788px) and (max-width: 979px) {
+    
+}
+
+@media only screen and (max-width: 787px) {
+    .logo-svg {
+        text-align: center;
+    }
+
+    .navegacao ul li {
+        margin-right: 10px;
+    }
+
+    .introducao h1 {
+        font-size: 42px;
+    }
+
+    .introducao p {
+        font-size: 18px;
+    }
+
+    .introducao a {
+        margin-top: 60px;
+    }
+}
