@@ -3,6 +3,7 @@ body {
 }
 
 header {
+    width: 100%;
     background-color: #b90e0a;
     padding: 20px;
 }
@@ -42,15 +43,25 @@ header {
     text-align: center;
     text-transform: uppercase;
     color:#fff;
+    font-weight: bold;
 }
 
 .introducao h1 {
     font-size: 60px;
-    font-weight: bold;
     margin-top: 100px;
     margin-bottom: 30px;
 }
 
 .introducao p {
     font-size: 24px;
+}
+
+.introducao a {
+    color: #fff;
+    text-decoration: none;
+    background-color: #238a1d;
+    border-radius: 20px;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 100px;
 }
