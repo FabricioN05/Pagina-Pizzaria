@@ -101,17 +101,23 @@ header {
 
 .foto img {
     width: 100%;
-    border-radius: 20px;
+    border-radius: 20px 0 0 20px;
 }
 
 .link {
+    height: 364px;
+    margin-top: 60px;
+    margin-left: 0;
     text-align: center;
-    margin-top: 150px;
-}
+    border: 4px solid black;
+    border-left: 0;
+    border-radius: 0 20px 20px 0;
+}   
 
 .link p {
-    max-width: 300px;
     font-weight: 700;
+    max-width: 300px;
+    margin: 120px auto 0;
 }
 
 .link a {
